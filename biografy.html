@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form</title>
+	</head>
+	<body>
+		<h1>Form</h1>
+		<form>
+			<fieldset>
+				<legend>Private info</legend>
+				<div>
+					<label for="name">Name</label>
+					<input type="text" id="name" required />
+				</div>
+				<div>
+					<label for="last-name">Last Name</label>
+					<input type="text" id="last-name" required />
+				</div>
+				<div>
+					<label for="birthday">birthday</label>
+					<input type="color" id="birthday" required />
+				</div>
+				<div
+					><label>Male</label><input type="radio" name="gender"
+				/></div>
+				<div
+					><label>Female</label><input type="radio" name="gender"
+				/></div>
+				<div>
+					<label for="city">Город</label>
+					<select name="city" multiple>
+						<option value="kiev">kiev</option>
+						<option value="zaporozhie" selected>zaporozhie</option>
+						<option value="dnipro">dnipro</option>
+						<option value="odessa">odessa</option>
+						<option value="nokolaev">nokolaev</option>
+					</select>
+				</div>
+			</fieldset>
+
+			<button type="submit">Ok</button>
+			<!-- <input type="submit"> -->
+		</form>
+	</body>
+</html>
